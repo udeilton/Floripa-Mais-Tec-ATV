@@ -24,3 +24,10 @@ let med=0
   med+=v
     return med;
     }
+
+
+    //codido 5
+   // let totalRuins - 0;
+   // let contador = 1;
+   // while(contador <= 4)
+   // let respposta - prompt("bom ou ruim")

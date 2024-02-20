@@ -1,4 +1,4 @@
-const readline = require('readline-sync');
+const readline = require('readline-sync') ({sigint: true});
 
  
 let notaA = parseInt (readline.question("Digite sua nota "));

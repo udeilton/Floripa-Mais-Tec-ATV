@@ -8,7 +8,8 @@ let En = parseInt(num ("Digite = "));
 
 const numeros = [An,Bn,Cn,Dn,En];
 
-const numerosOrdenados = [...numeros];
-numerosOrdenados.sort();
+const quadrado = numeros.map(numeroatual => numeroatual ** 2);
 
-console.log(numerosOrdenados);
+
+
+console.log(quadrado);

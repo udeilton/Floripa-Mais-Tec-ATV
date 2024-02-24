@@ -6,9 +6,10 @@ let Cn = parseInt(num ("Digite = "));
 let Dn = parseInt(num ("Digite = "));
 let En = parseInt(num ("Digite = "));
 
-const numeros = [An,Bn,Cn,Dn,En];
+const par = x => x % 2 === 0 ;
 
-const numerosOrdenados = [...numeros];
-numerosOrdenados.sort();
+const numero = [An,Bn,Cn,Dn,En];
 
-console.log(numerosOrdenados);
+const pares = numero.filter(par)
+
+console.log(pares);

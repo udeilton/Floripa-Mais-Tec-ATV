@@ -35,8 +35,7 @@ class Produto {
         console.log(`O produto ${this.nome} ${this.marca} ${this.cor} possui ${this.quantidade} unidades disponíveis`)
 
     }
-
-   
+  
 } 
 
 let Produ = new Produto("caneta", 10, 5, "bic", "azul");
